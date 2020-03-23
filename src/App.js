@@ -88,7 +88,8 @@ class App extends Component {
     return (
       <div className="wrapper">
         <div className="form-wrapper">
-          <img/>
+        <img src="https://lh3.googleusercontent.com/d/1sgSh-U5tyBMI_fxDS4l1cTuf2M-ttSHv=s220?authuser=0"
+            className="ic-logo"/>
           <p className="word">Create a new Account</p>
           <form onSubmit={this.handleSubmit} noValidate>
             <div className="firstName">
